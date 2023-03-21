@@ -1,0 +1,38 @@
+body{
+    font-family: 'Spectral', serif;
+    text-align: center;
+    background: url(https://live.staticflickr.com/65535/51524369925_da197b0de3_b.jpg) no-repeat center/cover;
+    height: 100vh;
+    object-fit: cover;
+    color: #000000;
+    display: grid;
+    place-content: center;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120px;
+}
+h1 span{
+    color: #0daf71
+}
+a{
+    color: #000000;
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+a:hover,
+.btn_primary{
+    background-color: #0daf71;
+    border-radius: 8px;
+    color: #000000;
+}
+p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 72px;
+}
